@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import bernardoLewLogo from './assets/Bernardo-Lew-logo.png'
+
 import './App.css'
 
 function App() {
@@ -8,25 +8,19 @@ function App() {
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
+      <div className="navbar">
+        <a href="https://www.bernardolew.com.ar/" target="_blank">
+          <img src={bernardoLewLogo} className="logo" alt="React logo" />
         </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <h2 className="titulo-ppal">Bernardo Lew - Desafío Técnico React</h2>
       </div>
-      <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+          Cargar Lista de productos {count}
         </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Click on the Lew logo to learn more
       </p>
     </>
   )
