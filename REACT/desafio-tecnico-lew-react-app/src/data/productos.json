@@ -1,0 +1,12 @@
+[
+    {"nombre": "Producto1", "precio": 5.99},
+    {"nombre": "Producto2", "precio": 15.49},
+    {"nombre": "Producto3", "precio": 25.00},
+    {"nombre": "Producto4", "precio": 8.75},
+    {"nombre": "Producto5", "precio": 12.30},
+    {"nombre": "Producto6", "precio": 9.99},
+    {"nombre": "Producto7", "precio": 11.00},
+    {"nombre": "Producto8", "precio": 18.75},
+    {"nombre": "Producto9", "precio": 3.50},
+    {"nombre": "Producto10", "precio": 21.20}
+]

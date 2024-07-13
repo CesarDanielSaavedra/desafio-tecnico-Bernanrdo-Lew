@@ -1,11 +1,15 @@
 import { useState } from 'react'
 import bernardoLewLogo from './assets/Bernardo-Lew-logo.png'
+import productos from './data/productos.json';
 
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [mostrarProductos, setMostrarProductos] = useState(false);
 
+  const handleMostrarProductos = () => {
+    setMostrarProductos(true);
+  };
   return (
     <>
       <div className="navbar">
@@ -15,12 +19,21 @@ function App() {
         <h2 className="titulo-ppal">Bernardo Lew - Desafío Técnico React</h2>
       </div>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          Cargar Lista de productos {count}
+        <button onClick={handleMostrarProductos}>
+          Cargar productos
         </button>
+        {mostrarProductos && (
+        <ul>
+          {productos.map((producto, index) => (
+            <li key={index}>
+              <strong>{producto.nombre}</strong> - ${producto.precio.toFixed(2)}
+            </li>
+          ))}
+        </ul>
+      )}
       </div>
       <p className="read-the-docs">
-        Click on the Lew logo to learn more
+        Click on Lew logo to learn more
       </p>
     </>
   )
