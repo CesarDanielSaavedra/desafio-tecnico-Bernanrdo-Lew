@@ -1,8 +1,16 @@
-# React + Vite
+# Ejercicio - App Simple en REACT
+Crea una aplicación web simple en React que muestre una lista de productos con sus respectivos precios.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Resolucion
+Se crea una muy sencilla App en React haciendo uso de Vite.
 
-Currently, two official plugins are available:
+A fines de completar el desafio se crea el archivo "productos.json" el cual contiene un arreglo de objetos productos. La lista de productos a mostrar se carga directamente desde el archivo productos.json.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Instrucciones para ejecutar la Aplicación
+Luego de clonar el repositorio ejecutar los siguientes comandos
+
+-- instalar las dependecias especificas
+npm install
+
+-- iniciar el servidor de desarrollo local, dado que la app fue creada con Vite 
+npm run dev 
