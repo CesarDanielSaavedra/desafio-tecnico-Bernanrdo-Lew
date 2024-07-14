@@ -11,3 +11,4 @@ Este repositorio contiene la solución para el desafío técnico presentado por 
 A continuacion de especifica la estructura de archivos
 
 - SQL/ : contiene la resolución del ejercicio en el que se pide desarrollar una consulta en SQL.
+- REACT/desafio-tecnico-lew-react-app : contiene la resolución del ejercicio en el que se pide desarrollar una app simple en REACT.
