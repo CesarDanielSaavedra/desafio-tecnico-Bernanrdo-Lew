@@ -14,3 +14,6 @@ A continuacion de especifica la estructura de archivos
 - JAVA/desafio-tecnico-lew-java: contiene un proyecto de Java con una unica clase que resuelve el ejercicio propuesto.
 - REACT/desafio-tecnico-lew-react-app : contiene una app creada con Vite que desarrolla el ejercicio solicitado en el apartado de REACT.
 - SQL/ : contiene un Script con la consulta en SQL solicitada.
+
+## Importate
+Dentro de cada uno de los directorios se encuentran archivos README.md con instrucciones especificas.
