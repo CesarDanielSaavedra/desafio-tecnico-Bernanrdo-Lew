@@ -10,5 +10,7 @@ Este repositorio contiene la solución para el desafío técnico presentado por 
 
 A continuacion de especifica la estructura de archivos
 
-- SQL/ : contiene la resolución del ejercicio en el que se pide desarrollar una consulta en SQL.
-- REACT/desafio-tecnico-lew-react-app : contiene la resolución del ejercicio en el que se pide desarrollar una app simple en REACT.
+- Cuestionario Toerico/ : contiene la resolución del cuestionario dentro de un archivo README.md.
+- JAVA/desafio-tecnico-lew-java: contiene un proyecto de Java con una unica clase que resuelve el ejercicio propuesto.
+- REACT/desafio-tecnico-lew-react-app : contiene una app creada con Vite que desarrolla el ejercicio solicitado en el apartado de REACT.
+- SQL/ : contiene un Script con la consulta en SQL solicitada.
