@@ -2,6 +2,10 @@
 
 Responde las siguientes preguntas seleccionando la única opción correcta:
 
+Debajo de las opciones en cada una de las preguntas, en **negrita**, se encuentra la respuesta seleccionada
+
+---
+
 ¿Cuál es la sintaxis correcta para declarar una variable en Java?
 
 a) var nombreVariable = valor;
@@ -12,7 +16,7 @@ c) nombreVariable = valor;
 
 d) new nombreVariable = valor;
 
-**Respuesta correcta: b) int nombreVariable = valor;**
+**Respuesta: b) int nombreVariable = valor;**
 
 ---
 
@@ -26,7 +30,7 @@ c) const se utiliza para declarar variables de tipo primitivo, mientras que let 
 
 d) const y let son sinónimos y se pueden usar indistintamente.
 
-**Respuesta correcta: a) const se utiliza para declarar variables constantes, mientras que let se utiliza para variables mutables.**
+**Respuesta: a) const se utiliza para declarar variables constantes, mientras que let se utiliza para variables mutables.**
 
 ---
 
@@ -40,7 +44,7 @@ c) Compilar código JavaScript.
 
 d) Administrar versiones de paquetes.
 
-**Respuesta correcta: a) Instalar paquetes y dependencias para un proyecto.**
+**Respuesta: a) Instalar paquetes y dependencias para un proyecto.**
 
 ---
 
@@ -54,7 +58,7 @@ c) props son accesibles desde cualquier lugar del componente, mientras que state
 
 d) props se actualizan automáticamente cuando cambia el componente padre, mientras que state se actualizan manualmente mediante métodos del componente.
 
-**Respuesta correcta: a) props son datos inmutables que se reciben de un componente padre, mientras que state son datos mutables que se administran dentro de un componente.**
+**Respuesta: a) props son datos inmutables que se reciben de un componente padre, mientras que state son datos mutables que se administran dentro de un componente.**
 
 ---
 
@@ -68,4 +72,4 @@ c) Acceder al DOM.
 
 d) Comunicarse con un servidor.
 
-**Respuesta correcta: a) Ejecutar código de efecto secundario después de la renderización o actualización de un componente.**
+**Respuesta: a) Ejecutar código de efecto secundario después de la renderización o actualización de un componente.**
